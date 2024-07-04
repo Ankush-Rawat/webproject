@@ -1,0 +1,156 @@
+/* .home{
+    border: 5px solid #77767c;
+        border-top-right-radius: 37px;
+        border-bottom-right-radius: 37px;
+        background-color: #77767c;
+        width: 200px;
+    height: 300px;
+
+}
+.play{
+
+width: 200px;
+    height: 500px;
+    background-color: #77767c;
+        border: 5px solid  #77767c;
+        border-top-right-radius: 37px;
+        border-bottom: 35px;
+    
+}
+.bgcolor{
+    background-color: #045220;
+} */
+/* .page{
+    border: 2px solid green;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 100px;
+
+} */
+
+
+/* 
+.home {
+    border-bottom: 2px solid black;
+    border-radius: 0px 37px 37px 0px;
+    background-color: #77767c;
+    width: 200px;
+    height: 300px;
+    margin-right: 20px; /* Add margin to create space */
+/* }
+
+.play {
+    width: 200px;
+    height: 500px;
+    background-color: #77767c;
+    border: 5px solid  #77767c;
+    border-top-right-radius: 37px;
+    border-bottom: 35px;
+}
+
+.bgcolor {
+    background-color: #82877e;
+}  */
+
+
+/* Main background color */
+.bgcolor {
+    background-color: #f0f0f0;
+  }
+  
+  /* Main container styles */
+  .main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Home section styles */
+  .home {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Playlist styles */
+  .play ul {
+    list-style-type: none;
+  }
+  
+  .play ul li {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  /* Sidebar styles */
+
+
+  
+  /* Active link styles */
+  .sidebar a.active {
+    font-weight: bold;
+  }
+  
+  /* Content styles */
+  .content {
+    margin-left: 220px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
+  /* Card styles */
+  .card {
+    width: 18rem;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Add other styles here */
+
+/* Add other styles here */
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px; /* Add a gap between the cards */
+    height: 320px; /* Increase the height of the cards */
+  }
+  
+  .sidebar {
+    height: 100vh; /* Increase the height of the sidebar */
+  }
+  
+
+  /* Add this to your CSS file, e.g., App.css */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  
